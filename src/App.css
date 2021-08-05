@@ -8,13 +8,52 @@
   justify-content: space-between;
 }
 .homeWrapper {
-  background-image: url("https://pixabay.com/get/g2aa43b6e70affa8960b131276a7e54433cf02261d78a1b7b7fc2c07ab6bbec33ac8d0d73d1067532eefedb74b3cd3080.jpg");
+  background-image: url("./img/goodness-2258249.png");
   margin-top: -21px;
   background-position: top;
   padding: 20px;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
+  
+}
+
+
+.navLink {
+  margin: 0 10px 0 10px;
+}
+#menuLink a {
+  color: rgb(155, 83, 70);
+}
+#menuLink a:hover {
+  color: rgb(255, 200, 185);
+}
+.homeMenu {
+  width: 400px;
+  height: 400px;
+  margin: 90px 0 0 60px;
+  background-image: url("https://i.postimg.cc/vT9YHnz0/scroll.png");
+  overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 110%;
+  position: relative;
+  animation: mymove 5s ;
+  animation-iteration-count: 1;
+}
+
+@keyframes mymove {
+  from {left: -650px;}
+  to {left: 0px;}
+}
+
+.linksWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Cinzel", serif;
+  font-size: 30px;
+  margin: 60px 0 0 0;
 }
 a {
   text-decoration: none;
@@ -26,10 +65,14 @@ a:hover,
 a:active {
   color: rgb(255, 200, 185);
 }
+
+
 .header {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content:space-between;
+  flex-wrap: wrap; 
   justify-content: space-evenly;
   /* background-color: rgb(104, 123, 185); */
   background-color: rgb(155, 83, 70);
@@ -59,33 +102,14 @@ a:active {
     rgb(197, 183, 143) 100%
   );
 }
-.homeMenu {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  width: 150px;
-  font-family: "Cinzel", serif;
-  margin: 90px 0 0 60px;
-  font-size: 30px;
-}
-.menuLink {
-  margin: 10px;
-  background: rgb(255, 254, 239);
-  background: radial-gradient(
-    circle,
-    rgb(255, 251, 239) 0%,
-    rgb(238, 222, 179) 59%,
-    rgb(197, 183, 143) 100%
-  );
-}
 h3 {
   margin: 5px 0 5px 0;
 }
 .libraryHeader {
   font-family: "Cinzel", serif;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: bold;
-  margin: 20px;
+  margin: 25px;
   -webkit-filter: drop-shadow(2px 2px 2px rgb(26, 25, 25));
   filter: drop-shadow(2px 2px 2px rgb(26, 25, 25));
 }
@@ -114,6 +138,7 @@ h3 {
   flex-direction: column;
   align-items: center;
   padding: 60px;
+  margin-top: 5px;
   font-family: "Cinzel", serif;
   font-size: 15px;
   text-align: center;
@@ -134,7 +159,7 @@ h3 {
 .studentName {
   font-family: "Julius Sans One", sans-serif;
   padding: 10px;
-  margin-top: 20px;
+  margin: 30px 0 -5px 0;
 }
 .studentContainer {
   display: flex;
@@ -148,40 +173,56 @@ h3 {
 }
 
 /* FOOTER */
-.PrayersContainer {
+.prayersContainer {
   font-family: "Cinzel", serif;
+  margin: 0 300px 0 300px;
 }
 
 .prayersWrapper {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 }
 
-.InputPrayer {
+.pillar {
+  height: 20px;
+}
+
+.inputPrayer {
   /* width: 20vw; */
   display: flex;
   flex-direction: column;
-  margin-left: 2em;
   height: 10%;
+  width: 400px;
+  margin-left: 30px;
+}
+
+input:focus {
+  outline: none;
 }
 
 .InputContainer {
-  max-width: 30vw;
-  margin: 1.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
 .imgAthena {
   height: 50%;
   max-height: 60vh;
   filter: sepia(0.5);
   border-radius: 50px;
-  padding-bottom: 30px;
+  margin-bottom: 20px;
+  box-shadow:
+  0 0 5px 1px rgb(197, 183, 143),
+  0 0 15px 6px rgb(238, 222, 179),
+  0 0 25px 10px rgb(255, 251, 239);
 }
 
 .InputDetails {
-  margin: 1em;
-  font-size: medium;
+  font-family: "Julius Sans One", sans-serif;
 }
+
 
 .input {
   padding: 1.5em;
@@ -189,6 +230,10 @@ h3 {
   margin-bottom: 1.5em;
 }
 .CuteButton {
+  margin: 2em;
+  font-size: medium;
+  margin: 10px;
+  font-family: "Julius Sans One", sans-serif;
   border-radius: 14px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: 10px;
@@ -210,6 +255,7 @@ h3 {
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;
+  
 }
 
 .CuteButton:hover {
@@ -230,4 +276,44 @@ h3 {
   );
   box-shadow: 0 5px #666;
   transform: translateY(4px);
+  margin-bottom: 30px;
+}
+
+.response {
+  font-family: "Julius Sans One", sans-serif;
+  text-align: center;
+}
+
+.response2 {
+  font-weight: bolder;
+  color: rgb(155, 83, 70);
+}
+
+@media screen and (max-width: 768px) {
+
+  .homeWrapper {
+    background-position: right 20px;
+  }
+  .prayersWrapper {
+    flex-direction: column;
+  }
+  .prayersContainer{
+    margin : 0; 
+  }
+
+  .inputPrayer{
+    width:auto;
+    margin: 15px;
+  }
+  .templeImage {
+    width: 15%;
+  }
+.studentName {
+  padding: 5px;
+  margin: 30px 0 -5px 0;
+}
+
+.homeMenu {
+  display: none;
+}
 }

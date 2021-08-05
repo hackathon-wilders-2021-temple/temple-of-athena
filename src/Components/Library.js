@@ -32,7 +32,8 @@ const Library = (props) => {
                 key={i}
                 name={item.title}
                 authorsName={item.authors[0].name}
-                subject={item.subject.splice(0,3)}
+                subject={item.subject.filter((item)=>!item.includes("_")).splice(0,5)}
+                available={item.availability && item.availability['available_to_borrow']}
                 />
                 )}
             </div>
