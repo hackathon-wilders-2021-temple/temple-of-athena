@@ -1,9 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Julius+Sans+One&display=swap");
+
 .App {
   text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-
+.homeWrapper {
+  background-image: url("https://pixabay.com/get/g2aa43b6e70affa8960b131276a7e54433cf02261d78a1b7b7fc2c07ab6bbec33ac8d0d73d1067532eefedb74b3cd3080.jpg");
+  margin-top: -21px;
+  background-position: top;
+  padding: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+a {
+  text-decoration: none;
+  color: rgb(255, 251, 239);
+  -webkit-filter: drop-shadow(1px 1px 1px rgb(26, 25, 25));
+  filter: drop-shadow(1px 1px 1px rgb(26, 25, 25));
+}
+a:hover,
+a:active {
+  color: rgb(255, 200, 185);
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  /* background-color: rgb(104, 123, 185); */
+  background-color: rgb(155, 83, 70);
+  padding: 10px;
+  color: rgb(255, 251, 239);
+  font-size: 7px;
+  text-transform: uppercase;
+  text-decoration: none;
+  -webkit-filter: drop-shadow(2px 2px 2px rgb(26, 25, 25));
+  filter: drop-shadow(2px 2px 2px rgb(26, 25, 25));
+  text-align: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  font-family: "Julius Sans One", sans-serif;
+}
+.title {
+  text-align: center;
+  padding: 10px;
+  /* margin: 10px; */
+  font-family: "Cinzel", serif;
+  background: rgb(255, 254, 239);
+  background: radial-gradient(
+    circle,
+    rgb(255, 251, 239) 0%,
+    rgb(238, 222, 179) 59%,
+    rgb(197, 183, 143) 100%
+  );
+}
+.homeMenu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 150px;
+  font-family: "Cinzel", serif;
+  margin: 90px 0 0 60px;
+  font-size: 30px;
+}
+.menuLink {
+  margin: 10px;
+  background: rgb(255, 254, 239);
+  background: radial-gradient(
+    circle,
+    rgb(255, 251, 239) 0%,
+    rgb(238, 222, 179) 59%,
+    rgb(197, 183, 143) 100%
+  );
+}
+h3 {
+  margin: 5px 0 5px 0;
+}
+.libraryHeader {
+  font-family: "Cinzel", serif;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 20px;
+  -webkit-filter: drop-shadow(2px 2px 2px rgb(26, 25, 25));
+  filter: drop-shadow(2px 2px 2px rgb(26, 25, 25));
+}
+.scrollWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.473);
+}
 .scroll {
-  background-image: url("./img/scroll.png");
+  background-image: url("https://i.postimg.cc/vT9YHnz0/scroll.png");
   overflow: hidden;
   background-position: center;
   background-repeat: no-repeat;
@@ -11,9 +105,129 @@
   height: 320px;
   width: 300px;
 }
+.scroll:hover {
+  transition: transform 0.5s ease;
+  transform: scale(1.1);
+}
 .bookInfo {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 60px;
+  font-family: "Cinzel", serif;
+  font-size: 15px;
+  text-align: center;
+}
+.smallText {
+  font-size: 13px;
+}
+.scrollText {
+  padding: 3px;
+}
+.footerWrapper {
+  /* background-color: rgb(70, 86, 155); */
+  background-color: rgb(155, 83, 70);
+  padding: 25px;
+  text-align: center;
+  bottom: 0;
+}
+.studentName {
+  font-family: "Julius Sans One", sans-serif;
+  padding: 10px;
+  margin-top: 20px;
+}
+.studentContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.templeImage {
+  margin-top: 10px;
+  width: 5%;
+  height: auto;
+}
+
+/* FOOTER */
+.PrayersContainer {
+  font-family: "Cinzel", serif;
+}
+
+.prayersWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.InputPrayer {
+  /* width: 20vw; */
+  display: flex;
+  flex-direction: column;
+  margin-left: 2em;
+  height: 10%;
+}
+
+.InputContainer {
+  max-width: 30vw;
+  margin: 1.5em;
+}
+.imgAthena {
+  height: 50%;
+  max-height: 60vh;
+  filter: sepia(0.5);
+  border-radius: 50px;
+  padding-bottom: 30px;
+}
+
+.InputDetails {
+  margin: 1em;
+  font-size: medium;
+}
+
+.input {
+  padding: 1.5em;
+  border-radius: 14px;
+  margin-bottom: 1.5em;
+}
+.CuteButton {
+  border-radius: 14px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px;
+  background: radial-gradient(
+    circle,
+    rgb(255, 251, 239) 0%,
+    rgb(238, 222, 179) 59%,
+    rgb(197, 183, 143) 100%
+  );
+
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: rgb(3, 1, 1);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.CuteButton:hover {
+  background: radial-gradient(
+    circle,
+    rgb(255, 251, 239) 0%,
+    rgb(238, 222, 179) 59%,
+    rgb(197, 183, 143) 100%
+  );
+}
+
+.CuteButton:active {
+  background: radial-gradient(
+    circle,
+    rgb(255, 251, 239) 0%,
+    rgb(238, 222, 179) 59%,
+    rgb(197, 183, 143) 100%
+  );
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }

@@ -6,55 +6,28 @@ const HomeMenu = () => {
     
     return(
             
-            <div>
-
-<Link to="/">
-                <div >
-                <h1>
-                    Home
-                </h1>
-                </div>
-                </Link>
+        <div className="homeWrapper">
+            <div className="homeMenu">
                 <Link to="/library/mythology">
-                <div >
-                <h1>
-                    Mythology
-                </h1>
-                </div>
+                        <span className="menuLink">mythology</span>
                 </Link>
                 <Link to="/library/philosophy">
-                <div>
-                <h1>
-                    Philosophy
-                </h1>
-                </div>
+                        <span className="menuLink">philosophy</span>
                 </Link>
                 <Link to="/library/art">
-                <div>
-                <h1>
-                    Art
-                </h1>
-                </div>
+                        <span className="menuLink">art</span>
                 </Link>
                 <Link to="/library/architecture">
-                <div>
-                <h1>
-                    Architecture
-                </h1>
-                </div>
+                        <span className="menuLink">architecture</span>
                 </Link>
-                <Link to="/library/math">
-                <div>
-                Math
-                </div>
+                <Link to="/library/mathematics">
+                        <span className="menuLink">mathematics</span>
                 </Link>
-                <Link to="/library/prayer">
-                <div>
-                Prayer
-                </div>
+                <Link to="/prayers">
+                        <span className="menuLink">prayer</span>
                 </Link>
-
             </div>
+        </div>
     )
 }
 

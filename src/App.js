@@ -9,18 +9,19 @@ import Library from './Components/Library';
 
 const App = () => {
   return (
-    <>
+    <div className='App'>
 <Router>
   <Header/>
   
           <Switch>
               <Route exact path = '/' component={HomeMenu}/>
               <Route exact path='/library/:subject' component={Library}/> 
+              <Route exact path = '/prayers' component={Prayers}/>
           </Switch>
           
         <Footer/>
       </Router>
-   </>
+   </div>
   
 
   );
