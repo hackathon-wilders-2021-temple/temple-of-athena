@@ -36,7 +36,7 @@ const Prayers = () => {
              </div>
            <div className="InputContainer">
             <div className="InputPrayer" >
-                <h2 className="InputDetails" htmlFor="text" >Close your eyes and concetrate on your question. <br/> When your're ready right it down, pray and wait for Athena's response </h2>
+                <h2 className="InputDetails" htmlFor="text" >Close your eyes and concentrate on your question. <br/> When your're ready, write it down, pray and wait for Athena's response. </h2>
                 <input className="InputDetails input" id="wish" type="text" onChange={(e)=>setWish(e.target.value)}/>
                 <button className="InputDetails" className="CuteButton" onClick={()=>handleWishes()}> Pray to Athena!</button>
                 </div>
