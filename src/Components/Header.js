@@ -45,7 +45,7 @@ const Header = () => {
                 </Link>
                 <Link to="/prayers">
                     <div className="navLink">
-                        <h1>Prayers</h1>
+                        <h1>Oracle</h1>
                     </div>
                 </Link>
             

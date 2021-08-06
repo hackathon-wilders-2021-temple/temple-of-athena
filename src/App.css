@@ -15,9 +15,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
-  
 }
-
 
 .navLink {
   margin: 0 10px 0 10px;
@@ -38,13 +36,17 @@
   background-repeat: no-repeat;
   background-size: 110%;
   position: relative;
-  animation: mymove 5s ;
+  animation: mymove 5s;
   animation-iteration-count: 1;
 }
 
 @keyframes mymove {
-  from {left: -650px;}
-  to {left: 0px;}
+  from {
+    left: -650px;
+  }
+  to {
+    left: 0px;
+  }
 }
 
 .linksWrapper {
@@ -66,13 +68,12 @@ a:active {
   color: rgb(255, 200, 185);
 }
 
-
 .header {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content:space-between;
-  flex-wrap: wrap; 
+  justify-content: space-between;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   /* background-color: rgb(104, 123, 185); */
   background-color: rgb(155, 83, 70);
@@ -134,6 +135,7 @@ h3 {
   transition: transform 0.5s ease;
   transform: scale(1.1);
 }
+
 .bookInfo {
   display: flex;
   flex-direction: column;
@@ -214,16 +216,13 @@ input:focus {
   filter: sepia(0.5);
   border-radius: 50px;
   margin-bottom: 20px;
-  box-shadow:
-  0 0 5px 1px rgb(197, 183, 143),
-  0 0 15px 6px rgb(238, 222, 179),
-  0 0 25px 10px rgb(255, 251, 239);
+  box-shadow: 0 0 5px 1px rgb(197, 183, 143), 0 0 15px 6px rgb(238, 222, 179),
+    0 0 25px 10px rgb(255, 251, 239);
 }
 
 .InputDetails {
   font-family: "Julius Sans One", sans-serif;
 }
-
 
 .input {
   padding: 1.5em;
@@ -256,7 +255,6 @@ input:focus {
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;
-  
 }
 
 .CuteButton:hover {
@@ -294,36 +292,56 @@ input:focus {
   background-color: beige;
   border-radius: 5px;
   display: flex;
-  justify-content: flex-start;
+  flex-direction: column;
   padding: 20px;
-  margin: 0 20px 0 20px;
+  margin: 10px 20px 0 20px;
+}
+
+.removeScroll {
+  background-color: rgb(155, 83, 70);
+  color: beige;
+  border-radius: 50px;
+  padding: 5px 10px 5px 10px;
+  margin: 10px;
+  -webkit-filter: drop-shadow(1px 1px 2px rgba(26, 25, 25, 0.582));
+  filter: drop-shadow(1px 1px 2px rgba(26, 25, 25, 0.582));
+}
+.removeScroll:hover,
+.removeScroll:active {
+  background-color: rgb(197, 119, 106);
+  -webkit-filter: drop-shadow(1px 1px 1px rgba(26, 25, 25, 0.582));
+  filter: drop-shadow(1px 1px 1px rgba(26, 25, 25, 0.582));
+}
+
+.titlesInBag {
+  text-align: left;
+  margin: 10px;
 }
 
 @media screen and (max-width: 768px) {
-
   .homeWrapper {
     background-position: right 20px;
   }
   .prayersWrapper {
     flex-direction: column;
   }
-  .prayersContainer{
-    margin : 0; 
+  .prayersContainer {
+    margin: 0;
   }
 
-  .inputPrayer{
-    width:auto;
+  .inputPrayer {
+    width: auto;
     margin: 15px;
   }
   .templeImage {
     width: 15%;
   }
-.studentName {
-  padding: 5px;
-  margin: 30px 0 -5px 0;
-}
+  .studentName {
+    padding: 5px;
+    margin: 30px 0 -5px 0;
+  }
 
-.homeMenu {
-  display: none;
-}
+  .homeMenu {
+    display: none;
+  }
 }

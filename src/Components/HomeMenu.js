@@ -25,7 +25,7 @@ const HomeMenu = () => {
                                 <span>mathematics</span>
                         </Link>
                         <Link to="/prayers">
-                                <span>prayer</span>
+                                <span>Oracle</span>
                         </Link>
                 </div>
             </div>
