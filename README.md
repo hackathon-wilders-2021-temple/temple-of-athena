@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# Temple of Athena
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Wild Code Sschool](http://wildcodeschool.com) student first hackathon project (Aug 2021).
 
-## Available Scripts
+## 🌠 Team Athena's Posse 🌠
 
-In the project directory, you can run:
+- [Salvatore](https://github.com/sal9110)
+- [Guilherme](https://github.com/Guilhaxr)
+- [Pallavi](https://github.com/pallavid08)
+- [Lorianne](https://github.com/Grailsidhe)
 
-### `yarn start`
+## 📜 Concept
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Under the theme of traveling back in time and offering a relevant service, the **Temple of Athena** devotes itself to the sharing of widsom to the common man (and woman), through the lending of scrolls following the topics of:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Mythology
+- Philosophy
+- Art
+- Architecture
+- Mathematics
 
-### `yarn test`
+As well as encouraging devotion to Goddess Athena through an oracle that answers questions.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📜 Features
 
-### `yarn build`
+- Main site
+- Header with nav bar
+- Linked site menu
+- Footer
+- Scrolls pages
+- Oracle page
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📜 Functionality
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Scrolls are displayed depending on subject
+- Scrolls can be added to "bag" to be stored, "bag" can be emptied
+- Athena's Oracle gives answers to typed questions
+- Site is responsive
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+## 📜 Technologies Used
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- HTML/CSS
+- JavaScript
+- React
+- React Router
+- Photoshop
+- Visual Studio Code
+- Canva
+- NPM
+- Github
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📜 APIs
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- [Magic 8-ball](https://github.com/KegenGuyll/Magic-8-Ball-api)
+- [Open Library](https://openlibrary.org/developers/api)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 📜 Desktop
 
-## Learn More
+![cover](https://user-images.githubusercontent.com/78496780/128533716-57561d13-f513-4f07-bd04-30cdc8a21cd2.png)
+![main](https://user-images.githubusercontent.com/78496780/128533717-7c45c06d-f4b4-4ebd-a109-f6a68a5f71dd.png)
+![oracle](https://user-images.githubusercontent.com/78496780/128533719-4abc5de3-a512-48c5-ba4f-997631233673.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📜 Mobile
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![mobilemain](https://user-images.githubusercontent.com/78496780/128533857-b5f73be0-5a3c-4588-8064-6416747a5029.png)
+![mobileoracle](https://user-images.githubusercontent.com/78496780/128533860-8c63ec1a-2d1b-45d0-ab4f-1ea8c8ca03bb.png)
+![mobilecover](https://user-images.githubusercontent.com/78496780/128533862-41afe1a3-c768-4480-98b7-6e4cc1bf59fc.png)
