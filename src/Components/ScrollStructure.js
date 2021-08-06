@@ -4,7 +4,7 @@ const ScrollStructure =(props)=> {
     
     return (
 
-        <div className="scroll" id={props.id}>
+        <div className="scroll" id={props.key} onClick={()=> props.takeScroll(props.name)}>
             <div className="bookInfo">
                 <span className="scrollText"><b>{props.name}</b></span>
                 <span className="scrollText">Author: {props.authorsName}</span>
