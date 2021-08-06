@@ -34,6 +34,13 @@ const Prayers = () => {
              <div className="athenaImage">
              <img className="imgAthena" src="https://www.maxpixel.net/static/photo/2x/Sculpture-Austria-Vienna-Monument-Statue-Athena-91432.jpg" alt="Athena" />
              </div>
+<<<<<<< HEAD
+           <div className="InputContainer">
+            <div className="InputPrayer" >
+                <h2 className="InputDetails" htmlFor="text" >Close your eyes and concentrate on your question. <br/> When your're ready, write it down, pray and wait for Athena's response. </h2>
+                <input className="InputDetails input" id="wish" type="text" onChange={(e)=>setWish(e.target.value)}/>
+                <button className="InputDetails" className="CuteButton" onClick={()=>handleWishes()}> Pray to Athena!</button>
+=======
             <div className="InputContainer">
                 <div className="inputPrayer" >
                     <b>Pray to our Goddess of Wisdom</b><br />
@@ -48,6 +55,7 @@ const Prayers = () => {
                     {/* <h1> {wish ? wish : "" } </h1> */}
                     <h2 className="response"> Athena's response: </h2>
                     <h1 className="response2">{goddessResponse && goddessResponse} </h1>
+>>>>>>> 79b53fadc014fe5b51b72b83b7a8d5efc8979825
                 </div>
             </div>
         </dsiv>
