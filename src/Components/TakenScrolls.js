@@ -4,8 +4,9 @@ const TakenScrolls =(props)=> {
     
     return (
 
-        <div>
-            <p>{props.scroll}</p>
+        <div className="scrollBag">
+            <b>Scrolls taken:</b>
+            {props.scroll.map((title)=>{return `${title}, `})}
         </div>
 
 )

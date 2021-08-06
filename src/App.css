@@ -290,6 +290,15 @@ input:focus {
   color: rgb(155, 83, 70);
 }
 
+.scrollBag {
+  background-color: beige;
+  border-radius: 5px;
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px;
+  margin: 0 20px 0 20px;
+}
+
 @media screen and (max-width: 768px) {
 
   .homeWrapper {

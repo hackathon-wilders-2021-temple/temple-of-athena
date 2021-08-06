@@ -20,7 +20,7 @@ const Library = (props) => {
         .catch((err)=> console.log(err))
     },[topic])
     
-    
+
     const [takenBooks, setTakenBooks] = useState([]) 
     const takeScroll = ((title)=>{
         console.log(title);
@@ -31,11 +31,11 @@ const Library = (props) => {
 
     return(
 
-        
         <div className="libraryWrapper">
             <h1 className="libraryHeader">Scrolls on {topic}</h1>
 
             <div>{takenBooks.length > 0 && <TakenScrolls scroll={takenBooks} />}</div>
+            {/* <div>{<TakenScrolls scroll={takenBooks} />}</div> */}
 
             <div className="scrollWrapper">
                 {books.map((item, i)=>
