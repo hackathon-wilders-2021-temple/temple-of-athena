@@ -30,8 +30,12 @@ const Prayers = () => {
                setSendResponse(false)
                setGoddessResonse(res.data.body.answer)
                setWish('')
+               
             }))
-           .catch((err)=>console.log(err))
+           .catch((err)=>{
+               console.log(err)
+               setGoddessResonse("It seems like Athena is busy right now, please come back later.")
+            })
     },2000)
 
     
@@ -54,7 +58,7 @@ const Prayers = () => {
                     Close your eyes and concetrate<br/> on your question. 
                     When your are ready, make it known to our Goddess. <br />
                     Pray and wait for Athena's response </h3><br />
-                    <input className="InputDetails input" id="wish" type="text" value={wish}onChange={(e)=>setWish(e.target.value)}/>
+                    <input autocomplete="off" className="InputDetails input" id="wish" type="text" value={wish}onChange={(e)=>setWish(e.target.value)}/>
                     <button className="CuteButton" onClick={()=>handleWishes()}> Ask Athena!</button>
                 </div>
                 <div className="AthenaResponse">
@@ -67,7 +71,7 @@ const Prayers = () => {
                         height={100}
                         width={100}
                     /> :
-                        <h1 className="response2">{goddessResponse && goddessResponse} </h1>
+                    <h1 className="response2">{goddessResponse && goddessResponse} </h1>
                     }
                 </div>
             </div>

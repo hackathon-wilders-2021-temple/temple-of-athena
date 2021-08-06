@@ -9,7 +9,7 @@ const Library = (props) => {
 
     const topic = props.match.params.subject;
     const [initialBookList,setInitialBookList] = useState([])
-    const [books, setBooks]= useState([])
+    const [books, setBooks]= useState("")
 
     useEffect(()=>{
         setBooks([])
@@ -65,6 +65,7 @@ const Library = (props) => {
                     color="#9b5346"
                     height={100}
                     width={100}
+                    timeout={2000} 
                 />
                 
             }
