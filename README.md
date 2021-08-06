@@ -58,7 +58,9 @@ As well as encouraging devotion to Goddess Athena through an oracle that answers
 ## 📜 Desktop
 
 ![cover](https://user-images.githubusercontent.com/78496780/128533716-57561d13-f513-4f07-bd04-30cdc8a21cd2.png)
+
 ![main](https://user-images.githubusercontent.com/78496780/128533717-7c45c06d-f4b4-4ebd-a109-f6a68a5f71dd.png)
+
 ![oracle](https://user-images.githubusercontent.com/78496780/128533719-4abc5de3-a512-48c5-ba4f-997631233673.png)
 
 ## 📜 Mobile
