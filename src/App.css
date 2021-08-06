@@ -128,6 +128,7 @@ h3 {
   background-size: 110%;
   height: 320px;
   width: 300px;
+  cursor: pointer;
 }
 .scroll:hover {
   transition: transform 0.5s ease;
