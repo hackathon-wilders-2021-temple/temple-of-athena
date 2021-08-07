@@ -41,15 +41,12 @@ const Prayers = () => {
     
    }
 
-  
-    
-
     return(
     <div className="prayersContainer">
         <h1 className="libraryHeader">Athena's Oracle</h1>
         <div className='prayersWrapper'>
              <div className="athenaImage">
-             <img className="imgAthena" src="https://www.maxpixel.net/static/photo/2x/Sculpture-Austria-Vienna-Monument-Statue-Athena-91432.jpg" alt="Athena" />
+                <img className="imgAthena" src="https://www.maxpixel.net/static/photo/2x/Sculpture-Austria-Vienna-Monument-Statue-Athena-91432.jpg" alt="Athena" />
              </div>
             <div className="InputContainer">
                 <div className="inputPrayer" >
