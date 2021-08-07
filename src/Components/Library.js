@@ -40,22 +40,23 @@ const Library = (props) => {
             Click on a scroll to take
             <br />
             <div>{takenBooks.length > 0 && 
-            <TakenScrolls 
-            scroll={takenBooks} 
-            emptyBag ={emptyBag }
-            />}</div>
+                <TakenScrolls 
+                    scroll={takenBooks} 
+                    emptyBag ={emptyBag}
+                    />}
+            </div>
             {/* <div>{<TakenScrolls scroll={takenBooks} />}</div> */}
 
            { books.length > 0 ? 
            <div className="scrollWrapper">
                 {books.map((item, i)=>
                 <ScrollStructure 
-                key={i}
-                name={item.title}
-                authorsName={item.authors[0].name}
-                subject={item.subject.filter((item)=>!item.includes("_")).splice(0,5)}
-                available={item.availability && item.availability['available_to_borrow']}
-                takeScroll={takeScroll}
+                    key={i}
+                    name={item.title}
+                    authorsName={item.authors[0].name}
+                    subject={item.subject.filter((item)=>!item.includes("_")).splice(0,5)}
+                    available={item.availability && item.availability['available_to_borrow']}
+                    takeScroll={takeScroll}
                 /> 
             )}
             </div>
@@ -67,7 +68,6 @@ const Library = (props) => {
                     width={100}
                     timeout={2000} 
                 />
-                
             }
         </div>
     )
