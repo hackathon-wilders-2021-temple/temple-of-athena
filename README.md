@@ -1,5 +1,7 @@
 # Temple of Athena
 
+![cover](https://user-images.githubusercontent.com/78496780/128533716-57561d13-f513-4f07-bd04-30cdc8a21cd2.png)
+
 [Wild Code Sschool](http://wildcodeschool.com) student first hackathon project (Aug 2021).
 
 ## 🌠 Team Athena's Posse 🌠
