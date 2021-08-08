@@ -155,7 +155,7 @@ h3 {
 .footerWrapper {
   /* background-color: rgb(70, 86, 155); */
   background-color: rgb(155, 83, 70);
-  padding: 25px;
+  padding: 35px;
   text-align: center;
   bottom: 0;
 }
@@ -178,7 +178,7 @@ h3 {
 /* FOOTER */
 .prayersContainer {
   font-family: "Cinzel", serif;
-  margin: 0 300px 0 300px;
+  margin: 0 250px 20px 250px;
 }
 
 .prayersWrapper {
@@ -215,7 +215,7 @@ input:focus {
   max-height: 60vh;
   filter: sepia(0.5);
   border-radius: 50px;
-  margin-bottom: 20px;
+  margin: 20px 0 20px 0;
   box-shadow: 0 0 5px 1px rgb(197, 183, 143), 0 0 15px 6px rgb(238, 222, 179),
     0 0 25px 10px rgb(255, 251, 239);
 }
@@ -285,6 +285,7 @@ input:focus {
 
 .response2 {
   font-weight: bolder;
+  margin-left: 5px;
   color: rgb(155, 83, 70);
 }
 

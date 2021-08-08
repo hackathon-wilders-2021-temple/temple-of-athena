@@ -6,10 +6,10 @@ const TakenScrolls =(props)=> {
         <div className="scrollBag">
             <b>Scrolls Taken</b>
             <div className="titlesInBag">
-            <i>{props.scroll.map((title)=>{return `${title}, `})}</i>
+                <i>{props.scroll.map((title)=>{return `${title}, `})}</i>
             </div>
             <div><br />
-            <span className="removeScroll" onClick={()=>props.emptyBag()} style={{cursor: "pointer"}}>Empty Bag</span>
+                <span className="removeScroll" onClick={()=>props.emptyBag()} style={{cursor: "pointer"}}>Empty Bag</span>
             </div>
         </div>
 )
