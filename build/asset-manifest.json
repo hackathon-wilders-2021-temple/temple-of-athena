@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1ccfd3ab.chunk.css",
+    "main.js": "/static/js/main.bd2e1d08.chunk.js",
+    "main.js.map": "/static/js/main.bd2e1d08.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.4f5144e2.js",
+    "runtime-main.js.map": "/static/js/runtime-main.4f5144e2.js.map",
+    "static/js/2.80f040dc.chunk.js": "/static/js/2.80f040dc.chunk.js",
+    "static/js/2.80f040dc.chunk.js.map": "/static/js/2.80f040dc.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.1ccfd3ab.chunk.css.map": "/static/css/main.1ccfd3ab.chunk.css.map",
+    "static/js/2.80f040dc.chunk.js.LICENSE.txt": "/static/js/2.80f040dc.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/goodness-2258249.0d2ec77a.png",
+    "static/media/greek-temple2.81bf3954.png": "/static/media/greek-temple2.81bf3954.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4f5144e2.js",
+    "static/js/2.80f040dc.chunk.js",
+    "static/css/main.1ccfd3ab.chunk.css",
+    "static/js/main.bd2e1d08.chunk.js"
+  ]
+}
