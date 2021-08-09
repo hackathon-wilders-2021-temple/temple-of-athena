@@ -13,7 +13,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "^4.0.3",
     "web-vitals": "^1.0.1",
-    "homepage": "http://hackathon-wilders-2021-temple.github.io/temple-of-athena"
+    "homepage": "https://hackathon-wilders-2021-temple.github.io/temple-of-athena"
   },
   "scripts": {
     "start": "react-scripts start",
