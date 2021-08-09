@@ -9,7 +9,7 @@ ReactDOM.render(
   // <React.StrictMode>
   //   <App />
   // </React.StrictMode>,
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
+  <BrowserRouter basename="https://hackathon-wilders-2021-temple.github.io/temple-of-athena/">
     <App />
   </BrowserRouter>,
   document.getElementById('root')
