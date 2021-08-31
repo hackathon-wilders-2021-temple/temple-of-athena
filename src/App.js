@@ -1,4 +1,3 @@
-
 import './App.css';
 import Header from './Components/Header'
 import Footer from './Components/Footer'
@@ -10,8 +9,8 @@ import Library from './Components/Library';
 const App = () => {
   return (
     <div className='App'>
-<Router>
-  <Header/>
+      <Router>
+        <Header/>
   
           <Switch>
               <Route exact path = '/' component={HomeMenu}/>
@@ -22,8 +21,6 @@ const App = () => {
         <Footer/>
       </Router>
    </div>
-  
-
   );
 }
 

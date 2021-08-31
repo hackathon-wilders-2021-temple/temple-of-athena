@@ -6,11 +6,11 @@ import temple from '../img/greek-temple2.png'
 const Header = () => {
     
     return(
-        <div >
+        <div>
            <div className="title">
                <img className="templeImage" src={temple} alt="Greek Temple"/>
                <h1>TEMPLE OF ATHENA</h1>
-               </div>
+           </div>
             <div className="header">
                 
                 <Link to="/">
@@ -50,7 +50,7 @@ const Header = () => {
                 </Link>
             
             </div>
-            </div>
+        </div>
     )
 }
 

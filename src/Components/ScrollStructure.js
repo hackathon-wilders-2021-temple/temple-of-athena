@@ -1,5 +1,4 @@
 import React from 'react';
-import cart from '../img/cart.png'
 
 const ScrollStructure =(props)=> {
     
